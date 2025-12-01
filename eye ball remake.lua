@@ -1,4 +1,4 @@
---===[ ตรวจสอบว่ามี GUI "lan" อยู่แล้วหรือยัง ]===--
+--===[Got remake by palysky + anti execue]===--
 
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
@@ -11,7 +11,7 @@ end
 
 print("กำลังโหลด Eyeball GUI ...")
 
---===[ โค้ดหลัก Eyeball GUI ]===--
+--===[ Main script Eyeball GUI ]===--
 
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -22,7 +22,7 @@ lan.Name = "lan"
 lan.ResetOnSpawn = false
 lan.Parent = PlayerGui
 
--- Optional IntValue
+-- Optional IntValue in sreccn gui
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local m = ReplicatedStorage:FindFirstChild("OKDOETHATSPRETTYRIZZY")
 if not m then
