@@ -3377,7 +3377,7 @@ function Starlight:CreateWindow(WindowSettings)
 				Tab.Instances.Page.ImageBackdrop.Visible = not Tab.Instances.Page.ImageBackdrop.Visible
 			end
 		else
-			Tab.Instances.Page.ImageBackdrop.Image = "rbxassetid://78881404248017"
+			Tab.Instances.Page.ImageBackdrop.Image = "rbxassetid://90001883553700"
 		end
 
 		Tab.Instances.Page.playerDisplay.Text = `Welcome, {Player.DisplayName}`
